@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Isakfragrances/css/login.css">
+    <title>Login Page</title>
+  </head>
+  <body>
+    <section >
+      <!-- LOGIN BUTTON (Trigger) -->
+      <button id="openLogin" class="login-btn">Login</button>
+
+      <!-- LOGIN MODAL -->
+      <div class="modal" id="loginModal">
+        <div class="modal-content">
+          <!-- CLOSE -->
+          <span class="close-btn" id="closeLogin">&times;</span>
+            
+          <h2>Welcome Back!</h2>
+          <p>Please sign in to your account to continue.</p>
+
+          <!-- TOGGLE LOGIN TYPE -->
+          <div class="login-tabs">
+            <button class="tab active" data-tab="otp">Mobile OTP</button>
+            <button class="tab" data-tab="password">Password</button>
+          </div>
+
+          <!-- OTP LOGIN -->
+          <div class="tab-content active" id="otp">
+            <input type="tel" placeholder="Mobile Number" />
+            <input type="text" placeholder="Enter OTP" />
+            <button class="primary-btn">Verify OTP</button>
+          </div>
+
+          <!-- PASSWORD LOGIN -->
+          <div class="tab-content" id="password">
+            <input type="text" placeholder="Mobile / Email" />
+            <input type="password" placeholder="Password" />
+            <a href="#" class="forgot">Forgot Password?</a>
+            <button class="primary-btn">Login</button>
+          </div>
+
+          <div class="divider">OR</div>
+
+          <!-- SOCIAL LOGIN -->
+          <div class="social-login">
+            <button class="google">Continue with Google</button>
+            <button class="facebook">Continue with Facebook</button>
+            <button class="apple">Continue with Apple</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="/Isakfragrances/JS/login-modal.js"></script>
+  </body>
+</html>

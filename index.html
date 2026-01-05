@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>ISAK Fragrances</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <!-- LOGO -->
+        <a href="#" class="logo" aria-label="ISAK Home">
+          <img src="images/logo.png" alt="ISAK Fragrances Logo" />
+        </a>
+
+        <!-- NAV -->
+        <nav class="nav" id="navMenu" aria-label="Main Navigation">
+          <ul class="nav-list">
+            <!-- SHOP ALL -->
+            <li class="nav-item dropdown">
+              <button
+                class="dropdown-toggle"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                SHOP ALL
+              </button>
+
+              <div class="mega-menu">
+                <div>
+                  <h4>By Category</h4>
+                  <a href="#">Men's Perfume</a>
+                  <a href="#">Women's Perfume</a>
+                  <a href="#">Unisex Perfume</a>
+                  <a href="#">Bakhur & Dakhoon</a>
+                  <a href="#">Gift Sets</a>
+                </div>
+
+                <div>
+                  <h4>By Collection</h4>
+                  <a href="#">Untold Stories</a>
+                  <a href="#">Artisan Series</a>
+                  <a href="#">Wisal Series</a>
+                  <a href="#">Aurum Series</a>
+                  <a href="#">Oud Deodorants</a>
+                  <a href="#">Aristocrat Series</a>
+                  <a href="#">Royal Series</a>
+                  <a href="#">Amber Series</a>
+                </div>
+
+                <div>
+                  <h4>By Price</h4>
+                  <a href="#">Under ₹1999</a>
+                  <a href="#">₹2000 – ₹2999</a>
+                  <a href="#">₹3000 – ₹3999</a>
+                  <a href="#">₹4000 – ₹4999</a>
+                  <a href="#">₹5000 – ₹5999</a>
+                </div>
+
+                <div class="promo">
+                  <img
+                    src="https://www.isakfragrances.com/cdn/shop/files/Untitled_design-35.png"
+                    alt="ISAK Promotion"
+                  />
+                </div>
+              </div>
+            </li>
+
+            <li><a href="#">PERFUMES</a></li>
+            <li><a href="#">ATTAR</a></li>
+
+            <!-- HOME FRAGRANCES -->
+            <li class="nav-item dropdown">
+              <button class="dropdown-toggle">HOME FRAGRANCES</button>
+
+              <div class="mega-menu small">
+                <div>
+                  <h4>Air Fresheners</h4>
+                  <a href="#">Forest Rain</a>
+                  <a href="#">Lavender Rain</a>
+                  <a href="#">Citrus Burst</a>
+                </div>
+                <div>
+                  <h4>Diffusers</h4>
+                  <a href="#">Cordless Diffuser</a>
+                  <a href="#">Madurai Jasmine</a>
+                </div>
+              </div>
+            </li>
+
+            <!-- DISCOVER -->
+            <li class="nav-item dropdown">
+              <button class="dropdown-toggle">DISCOVER ISAK</button>
+
+              <div class="mega-menu small">
+                <div>
+                  <h4>About Us</h4>
+                  <a href="#">Our Story</a>
+                  <a href="#">Store Locator</a>
+                  <a href="#">Contact Us</a>
+                </div>
+                <div>
+                  <h4>Media</h4>
+                  <a href="#">Blogs</a>
+                  <a href="#">Press</a>
+                </div>
+              </div>
+            </li>
+
+            <li><a href="#">GIFTING</a></li>
+            <li><a href="#">WINTER PERFUMES</a></li>
+          </ul>
+        </nav>
+
+        <!-- ICONS -->
+        <div class="icons">
+          <a href="#" class="icon-btn" aria-label="Search">🔍</a>
+
+          <a
+            href="/Isakfragrances/pages/login.html"
+            class="icon-btn"
+            aria-label="Account"
+          >
+            👤
+          </a>
+
+          <a
+            href="/Isakfragrances/pages/cart.html"
+            class="icon-btn"
+            aria-label="Cart"
+          >
+            🛒
+          </a>
+
+          <!-- MOBILE MENU TOGGLE -->
+          <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open Menu"
+            aria-expanded="false"
+          >
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section 1 Slider Start-->
+    <section class="slideshow" aria-label="Homepage Banner Slider">
+      <div class="slides">
+        <!-- SLIDE 1 -->
+        <article class="slide active" aria-hidden="false">
+          <picture>
+            <source media="(max-width: 768px)" srcset="images/banner1.png" />
+            <img src="images/2.png" alt="First Rain Perfume" loading="eager" />
+          </picture>
+
+          <div class="slide-content left">
+            <p class="subtitle">
+              An antidote to stress, an escape from your everyday monotony
+            </p>
+            <h1>First Rain</h1>
+            <a href="#" class="btn" aria-label="Shop First Rain">Shop</a>
+          </div>
+        </article>
+
+        <!-- SLIDE 2 -->
+        <article class="slide" aria-hidden="true">
+          <picture>
+            <source media="(max-width: 768px)" srcset="images/banner2.png" />
+            <img
+              src="images/3.png"
+              alt="Artisanal Perfume Collection"
+              loading="lazy"
+            />
+          </picture>
+
+          <div class="slide-content center dark-text">
+            <h1>Artisanal Compositions from Rare Botanical Extracts</h1>
+            <a href="#" class="link" aria-label="View Discovery Pack">
+              Discovery Pack
+            </a>
+          </div>
+        </article>
+
+        <!-- SLIDE 3 -->
+        <article class="slide" aria-hidden="true">
+          <picture>
+            <source media="(max-width: 768px)" srcset="images/banner3.png" />
+            <img src="images/4.png" alt="Love Note Collection" loading="lazy" />
+          </picture>
+
+          <div class="slide-content bottom">
+            <p class="subtitle">
+              <strong>Feel the flutter. Embrace the magic.</strong>
+            </p>
+            <h1>Love Note Collection</h1>
+            <a
+              href="#"
+              class="btn1 btn-primary"
+              aria-label="Shop Love Note Collection"
+            >
+              Shop Now
+            </a>
+          </div>
+        </article>
+
+        <!-- SLIDE 4 -->
+        <article class="slide" aria-hidden="true">
+          <picture>
+            <source media="(max-width: 768px)" srcset="images/banner4.png" />
+            <img
+              src="images/5.png"
+              alt="ISAK Signature Perfumes"
+              loading="lazy"
+            />
+          </picture>
+        </article>
+
+        <!-- SLIDE 5 -->
+        <article class="slide" aria-hidden="true">
+          <picture>
+            <source media="(max-width: 768px)" srcset="images/banner.png" />
+            <img src="images/1.png" alt="ISAK Luxury Perfumes" loading="lazy" />
+          </picture>
+        </article>
+      </div>
+
+      <!-- SLIDER DOTS -->
+      <div class="dots" role="tablist" aria-label="Slide navigation"></div>
+    </section>
+
+    <!-- Section 1 Slider End-->
+    <!-- Section 2 Product Start-->
+    <section class="philosophy">
+      <div class="container">
+        <div class="section-header">
+          <h2>OUR PHILOSOPHY</h2>
+          <p>In a world full of sensational & signature, we are not.</p>
+          <p>We believe in the originals and basics.</p>
+
+          <div class="media-grid">
+            <a class="grid-item" href="#">
+              <img src="images/perfumes.png" alt="Perfumes" />
+              <div class="overlay">
+                <h4>Perfumes</h4>
+                <span>Explore</span>
+              </div>
+            </a>
+
+            <a class="grid-item" href="#">
+              <img src="images/attar.png" alt="Attars" />
+              <div class="overlay">
+                <h4>Attars</h4>
+                <span>Explore</span>
+              </div>
+            </a>
+
+            <a class="grid-item" href="#">
+              <img src="images/airfresherner.png" alt="Air Fresheners" />
+              <div class="overlay">
+                <h4>Air Fresheners</h4>
+                <span>Explore</span>
+              </div>
+            </a>
+
+            <a class="grid-item" href="#">
+              <img src="images/diffuseroils.png" alt="Diffuser Oils" />
+              <div class="overlay">
+                <h4>Diffuser Oils</h4>
+                <span>Explore</span>
+              </div>
+            </a>
+
+            <a class="grid-item" href="#">
+              <img src="images/floorfragrance.png" alt="Floor Fragrance" />
+              <div class="overlay">
+                <h4>Floor Fragrance</h4>
+                <span>Explore</span>
+              </div>
+            </a>
+
+            <a class="grid-item" href="#">
+              <img src="images/gifting.png" alt="Gifting" />
+              <div class="overlay">
+                <h4>Gifting</h4>
+                <span>Explore</span>
+              </div>
+            </a>
+
+            <a class="grid-item" href="#">
+              <img src="images/makeyour.png" alt="Make Your Perfume" />
+              <div class="overlay">
+                <h4>Make your perfume</h4>
+                <span>Explore</span>
+              </div>
+            </a>
+
+            <a class="grid-item" href="#">
+              <img src="images/discoverypack.png" alt="Discovery Packs" />
+              <div class="overlay">
+                <h4>Discovery Packs</h4>
+                <span>Explore</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 2 Product End-->
+    <!-- Section 3 First Rain Start-->
+    <section class="image-text-section">
+      <div class="container">
+        <div class="image-text">
+          <!-- IMAGE -->
+          <div class="image-box">
+            <a href="#">
+              <img
+                src="images/firstrain.png"
+                alt="First Rain by ISAK Fragrances"
+              />
+            </a>
+          </div>
+
+          <!-- CONTENT -->
+          <div class="text-box">
+            <h2>First Rain</h2>
+
+            <div class="description">
+              <p>
+                Crafted using the age-old <em>Deg & Bhapka</em> distillation
+                process, where the heart of the fragrance is
+                <strong
+                  >mitti itself – the very clay that holds the scent of the
+                  first monsoon showers</strong
+                >.
+              </p>
+
+              <p>
+                Each batch takes almost <strong>a month</strong> to craft. And
+                it can only be done during the dry months of the year, when the
+                air carries <strong>no moisture</strong>, allowing the clay to
+                bloom with true petrichor.
+              </p>
+
+              <p>
+                This seasonality means <em>First Rain</em> is often limited and
+                sells out — a natural rhythm we honour rather than fight.
+              </p>
+
+              <p>
+                The molecule that creates petrichor is naturally
+                <strong>very volatile</strong>, which means it lasts only
+                <strong>4–5 hours</strong>. We could add modern aroma molecules
+                to extend longevity, but with them, the soul of
+                <em>First Rain</em> disappears.
+              </p>
+
+              <p>
+                So we made a conscious choice:
+                <strong
+                  >purity over projection, authenticity over enhancement, joy
+                  over longevity.</strong
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 3 First Rain End-->
+    <!-- Section 4 Slide Line Start-->
+    <section class="scrolling-text-section">
+      <div class="scrolling-wrapper">
+        <div class="scrolling-track">
+          <div class="scrolling-item">
+            <span>Over 170 Years of Legacy</span>
+            <span>Perfumery for the Modern Royals</span>
+          </div>
+
+          <!-- Duplicate for seamless loop -->
+          <div class="scrolling-item">
+            <span>Over 170 Years of Legacy</span>
+            <span>Perfumery for the Modern Royals</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4 Slide Line End-->
+    <!-- Section 5 Featured Collection Start-->
+    <section class="featured-collection">
+      <div class="container">
+        <!-- Heading -->
+        <div class="section-header">
+          <p class="sub-title">Featured collection</p>
+          <h2 class="upper">
+            First Rain Collection - Nature Inspired Long lasting Perfumes
+          </h2>
+
+          <!-- Slider -->
+          <div class="slider-wrapper">
+            <button class="nav-btn prev">&#10094;</button>
+
+            <div class="product-slider" id="productSlider">
+              <!-- PRODUCT CARD -->
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="images/forestrain.png" class="img-main" />
+                  <img src="images/forestrain1.png" class="img-hover" />
+                </div>
+                <h3>Forest Rain Perfume</h3>
+                <p class="price">INR 2,900</p>
+              </div>
+
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="images/rainrose.png" class="img-main" />
+                  <img src="images/rainrose1.png" class="img-hover" />
+                </div>
+                <h3>Rain Kissed Rose Perfume</h3>
+                <p class="price">INR 2,900</p>
+              </div>
+
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="images/lavender.png" class="img-main" />
+                  <img src="images/lavender1.png" class="img-hover" />
+                </div>
+                <h3>Lavender Rain Perfume</h3>
+                <p class="price">INR 2,900</p>
+              </div>
+
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="images/minis.png" class="img-main" />
+                  <img src="images/minis1.png" class="img-hover" />
+                </div>
+                <h3>First Rain – Perfume Minis</h3>
+                <p class="price">INR 800</p>
+              </div>
+            </div>
+
+            <button class="nav-btn next">&#10095;</button>
+          </div>
+
+          <!-- View All -->
+          <div class="view-all">
+            <a href="#" class="btn">View all</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5 Featured Collection End-->
+    <!-- Section 6 Indroduction of Ambient Start-->
+    <section class="image-overlay-section">
+      <div class="image-overlay">
+        <!-- Background Image -->
+        <img
+          src="images/ambientbanner.png"
+          alt="Introducing Ambient Sprays"
+          class="overlay-image"
+        />
+
+        <!-- Dark Overlay -->
+        <div class="overlay-layer"></div>
+
+        <!-- Content -->
+        <div class="overlay-content">
+          <p class="subtitle">Introducing Ambient Sprays</p>
+
+          <p class="poem">
+            In a whisper of mist, ambient sprays dance,<br />
+            Transforming spaces with fragrant romance.<br />
+            In each gentle spray, a fresh, tranquil breeze,<br />
+            Awakens senses, and puts minds at ease.
+          </p>
+
+          <a href="/Isakfragrances/pages/about.html" class="btn-outline">Know More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6 Indroduction of Ambient End-->
+    <!-- Section 7 Product Section Start-->
+    <section class="products-section">
+      <div class="container">
+        <div class="products">
+          <p class="section-subtitle">New Launch</p>
+          <h2 class="section-title">Ambient Sprays</h2>
+
+          <div class="products-grid">
+            <!-- PRODUCT 1 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/freshwave.png" class="img-main" />
+                <img src="images/freshwave1.png" class="img-hover" />
+              </div>
+              <h3>Fresh Waves Air Freshener</h3>
+              <p class="price">From INR 390</p>
+            </div>
+
+            <!-- PRODUCT 2 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/citrus.png" class="img-main" />
+                <img src="images/citrus1.png" class="img-hover" />
+              </div>
+              <h3>Citrus Burst Air Freshener</h3>
+              <p class="price">From INR 390</p>
+            </div>
+
+            <!-- PRODUCT 3 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/lavenders.png" class="img-main" />
+                <img src="images/lavenders1.png" class="img-hover" />
+              </div>
+              <h3>Lavender Rain Air Freshener</h3>
+              <p class="price">From INR 490</p>
+            </div>
+
+            <!-- PRODUCT 4 -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="images/forest.png" class="img-main" />
+                <img src="images/forest1.png" class="img-hover" />
+              </div>
+              <h3>Forest Rain Air Freshener</h3>
+              <p class="price">From INR 490</p>
+            </div>
+          </div>
+
+          <div class="center">
+            <a href="#" class="btn-primary">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7 Product Section End-->
+    <!-- Section 8 Post Start-->
+    <section class="collection-section">
+      <div class="container">
+        <div class="collection-grid">
+          <!-- FOR HER -->
+          <a href="/collections/for-her" class="collection-card">
+            <div class="collection-media">
+              <img src="images/post.png" alt="Best perfumes for women" />
+              <div class="overlay"></div>
+
+              <div class="collection-content">
+                <p class="tag">Perfumes</p>
+                <h3>For Her</h3>
+                <span class="btn">View products</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- FOR HIM -->
+          <a href="/collections/for-him" class="collection-card">
+            <div class="collection-media">
+              <img src="images/post2.png" alt="Best perfumes for men" />
+              <div class="overlay"></div>
+
+              <div class="collection-content">
+                <p class="tag">Perfumes</p>
+                <h3>For Him</h3>
+                <span class="btn">View products</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8 Post End-->
+    <!-- Section 9 Festive Gift Box Start-->
+    <section class="featured-product">
+      <div class="container">
+        <div class="section-header">
+          <p class="subheading">Spread Your fragrance with a memorable gift</p>
+          <h2>Festive Gift Box of Perfumes</h2>
+
+          <div class="product-layout">
+            <!-- GALLERY -->
+            <div class="product-gallery">
+              <div class="slider">
+                <img
+                  id="mainImage"
+                  src="images/gift1.png"
+                  alt="Perfume Gift Box"
+                />
+              </div>
+
+              <div class="thumbnails">
+                <img src="images/gift1.png" onclick="changeImage(this)" />
+                <img src="images/gift2.png" onclick="changeImage(this)" />
+                <img src="images/gift3.png" onclick="changeImage(this)" />
+                <img src="images/gift4.png" onclick="changeImage(this)" />
+                <img src="images/gift5.png" onclick="changeImage(this)" />
+                <img src="images/gift6.png" onclick="changeImage(this)" />
+                <img src="images/gift7.png" onclick="changeImage(this)" />
+              </div>
+            </div>
+
+            <!-- INFO -->
+            <div class="product-info">
+              <h3>Discover Elegance with Our 2 × 9ml Perfumes Gift Box</h3>
+              <p>
+                Unveil the magic of Diwali with our 2 9ml Perfumes Gift Box,
+                designed for those who love to explore new scents. This set
+                includes two of our most beloved fragrances in a convenient 9ml
+                size, perfect for travel or daily use. Encased in a beautifully
+                designed box, these perfumes are a symbol of luxury and make for
+                an ideal gift to share the festive spirit. Indulge yourself or
+                surprise someone special with the gift of fragrance this season.
+              </p>
+              <p>
+                <strong>Perfume 9ml:</strong><br />Love Song<br />Above & Beyond
+              </p>
+              <ul>
+                <li>-Two 9ml perfumes in a sleek and portable size</li>
+                <li>-Ideal for gifting and personal use</li>
+                <li>-Beautifully packaged for a festive touch</li>
+                <li>-A perfect introduction to our signature scents</li>
+                <li>-Custom select the perfumes in the box</li>
+              </ul>
+              <div class="price">INR 1,590</div>
+              <button class="add-to-cart" onclick="addToCart()">
+                Add to cart
+              </button>
+              <button class="buy-now">Buy it now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 9 Festive Gift Box End-->
+    <!-- Section 10 Timeline Start-->
+    <section class="timeline-section">
+      <div class="timeline-container">
+        <div class="timeline-slider">
+          <div class="timeline-slide active">
+            <img src="images/ourstory.png" alt="Our Story" />
+            <div class="timeline-content">
+              <p class="small-title">About Us</p>
+              <h2>Our Story</h2>
+              <p>
+                The unrivalled fragrance formulations along with the lingua
+                franca graced with the ever so famous tehzeeb and nazaaqat of
+                the city of Lucknow, spreading and winning discerning patronage
+                across regions. Over the last century, our fragrance house has
+                managed to build and blossom the business driven by the artistry
+                and perfection of hand blending and not commercial priorities;
+                along with a keen inherited nose, counting 170 years and 6
+                generations to be precise. What our recipe is, is hard to
+                divulge, but we acknowledge, it is a dream commission.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-slide">
+            <div class="timeline-content">
+              <p class="small-title">About Us</p>
+              <h2>The Craftsmanship</h2>
+              <p>
+                Carrying forward a legacy of handcrafted perfumery inspired by
+                nature and Indian heritage knowledge.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-slide">
+            <div class="timeline-content">
+              <p class="small-title">ISAK</p>
+              <h2>The Meaning</h2>
+              <p>
+                ISAK comes from ‘ISHQ’. Rooted in tradition, handcrafted,
+                original, and timeless — surviving without commercial
+                compromise.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-nav">
+          <button class="active" onclick="showSlide(0)">OUR STORY</button>
+          <button class="active" onclick="showSlide(1)">CRAFTSMANSHIP</button>
+          <button class="active" onclick="showSlide(2)">MEANING</button>
+        </div>
+      </div>
+    </section>
+    <!-- Section 10 Timeline End-->
+
+    <!-- Section 11 As Seen Is Start-->
+    <section class="logo-section">
+      <h2 class="logo-title">As seen In</h2>
+
+      <div class="logo-grid">
+        <div class="logo-item">
+          <img
+            src="https://www.isakfragrances.com/cdn/shop/files/Screenshot_2024-01-17_at_3.54.33_PM.png?v=1705487090"
+            alt="Top 25 Emerging Brands"
+          />
+        </div>
+
+        <div class="logo-item">
+          <img
+            src="https://www.isakfragrances.com/cdn/shop/files/Untitled_design-40.png?v=1705494320"
+            alt="Elle"
+          />
+        </div>
+
+        <div class="logo-item">
+          <img
+            src="https://www.isakfragrances.com/cdn/shop/files/Screenshot_2024-01-17_at_3.48.06_PM.png?v=1705486700"
+            alt="Shark Tank India"
+          />
+        </div>
+
+        <div class="logo-item">
+          <img
+            src="https://www.isakfragrances.com/cdn/shop/files/Untitled_design-39.png?v=1705494211"
+            alt="Vogue"
+          />
+        </div>
+
+        <div class="logo-item">
+          <img
+            src="https://www.isakfragrances.com/cdn/shop/files/Screenshot_2024-01-17_at_5.45.58_PM.png?v=1705493777"
+            alt="Your Story"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 11 As Seen Is End-->
+    <!-- Section 12 Newsletter  Start-->
+    <section class="newsletter-section">
+      <div class="newsletter-bg">
+        <img
+          src="https://www.isakfragrances.com/cdn/shop/files/Untitled_design-44.png?v=1711791410"
+          alt="Newsletter Background"
+        />
+      </div>
+
+      <div class="newsletter-content">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get all the latest offers and product updates sent to your inbox</p>
+
+        <form class="newsletter-form">
+          <input type="email" placeholder="E-mail" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <!-- Section 12 Newsletter  End-->
+    <!-- Section 13 FAQ  Start-->
+    <section class="faq-section">
+      <div class="faq-header">
+        <p class="faq-subtitle">Need help?</p>
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+      </div>
+
+      <div class="faq-content">
+        <h4 class="faq-category">Order</h4>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Do you ship overseas?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes, we ship all over the world. Shipping costs will apply, and
+              will be added at checkout. We run discounts and promotions all
+              year, so stay tuned for exclusive deals.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            How long will it take to get my orders?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Orders usually take 5–7 business days locally. Overseas deliveries
+              may take 7–16 days. Delivery details will be shared in your
+              confirmation email.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Can I get my order gift wrapped?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes, you can choose gift wrapping on the product page and even add
+              a handwritten note with your order.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 13 FAQ  End-->
+    <hr />
+    <!-- Section 14 Delivery  Start-->
+    <section class="features">
+      <div class="features-track">
+        <div class="feature-card">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+              <path
+                d="M96 144C87.2 144 80 151.2 80 160L80 448C80 456.8 87.2 464 96 464L99.3 464C109.7 427.1 143.7 400 184 400C224.3 400 258.2 427.1 268.7 464L371.3 464C376.2 446.6 386.4 431.3 400 420.1L400 160C400 151.2 392.8 144 384 144L96 144zM99.3 512L96 512C60.7 512 32 483.3 32 448L32 160C32 124.7 60.7 96 96 96L384 96C419.3 96 448 124.7 448 160L448 192L503.4 192C520.4 192 536.7 198.7 548.7 210.7L589.3 251.3C601.3 263.3 608 279.6 608 296.6L608 448C608 483.3 579.3 512 544 512L540.7 512C530.3 548.9 496.3 576 456 576C415.7 576 381.8 548.9 371.3 512L268.7 512C258.3 548.9 224.3 576 184 576C143.7 576 109.8 548.9 99.3 512zM448 320L560 320L560 296.6C560 292.4 558.3 288.3 555.3 285.3L514.7 244.7C511.7 241.7 507.6 240 503.4 240L448 240L448 320zM448 368L448 400.4C450.6 400.2 453.3 400 456 400C496.3 400 530.2 427.1 540.7 464L544 464C552.8 464 560 456.8 560 448L560 368L448 368zM184 528C206.1 528 224 510.1 224 488C224 465.9 206.1 448 184 448C161.9 448 144 465.9 144 488C144 510.1 161.9 528 184 528zM456 528C478.1 528 496 510.1 496 488C496 465.9 478.1 448 456 448C433.9 448 416 465.9 416 488C416 510.1 433.9 528 456 528z"
+              />
+            </svg>
+          </div>
+          <h4>Free domestic delivery</h4>
+          <p>On all orders above INR 1000</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+              <path
+                d="M442.9 144C415.6 144 389.9 157.1 373.9 179.2L339.5 226.8C335 233 327.8 236.7 320.1 236.7C312.4 236.7 305.2 233 300.7 226.8L266.3 179.2C250.3 157.1 224.6 144 197.3 144C150.3 144 112.2 182.1 112.2 229.1C112.2 279 144.2 327.5 180.3 371.4C221.4 421.4 271.7 465.4 306.2 491.7C309.4 494.1 314.1 495.9 320.2 495.9C326.3 495.9 331 494.1 334.2 491.7C368.7 465.4 419 421.3 460.1 371.4C496.3 327.5 528.2 279 528.2 229.1C528.2 182.1 490.1 144 443.1 144zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 297.7 533.1 358 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.8 539.2 335.6 543.9 320 543.9C304.4 543.9 289.2 539.2 276.9 529.8C240.4 502 187.2 455.5 143.1 402C106.9 358.1 64 297.7 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"
+              />
+            </svg>
+          </div>
+          <h4>Free sample</h4>
+          <p>Not applicable on Discovery Packs</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+              <path
+                d="M385.5 132.8C393.1 119.9 406.9 112 421.8 112L424 112C446.1 112 464 129.9 464 152C464 174.1 446.1 192 424 192L350.7 192L385.5 132.8zM254.5 132.8L289.3 192L216 192C193.9 192 176 174.1 176 152C176 129.9 193.9 112 216 112L218.2 112C233.1 112 247 119.9 254.5 132.8zM344.1 108.5L320 149.5L295.9 108.5C279.7 80.9 250.1 64 218.2 64L216 64C167.4 64 128 103.4 128 152C128 166.4 131.5 180 137.6 192L96 192C78.3 192 64 206.3 64 224L64 256C64 273.7 78.3 288 96 288L544 288C561.7 288 576 273.7 576 256L576 224C576 206.3 561.7 192 544 192L502.4 192C508.5 180 512 166.4 512 152C512 103.4 472.6 64 424 64L421.8 64C389.9 64 360.3 80.9 344.1 108.4zM544 336L344 336L344 544L480 544C515.3 544 544 515.3 544 480L544 336zM296 336L96 336L96 480C96 515.3 124.7 544 160 544L296 544L296 336z"
+              />
+            </svg>
+          </div>
+          <h4>Gift-Wrap</h4>
+          <p>Gift wrap with handwritten note</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+              <path
+                d="M320 64C324.6 64 329.2 65 333.4 66.9L521.8 146.8C543.8 156.1 560.2 177.8 560.1 204C559.6 303.2 518.8 484.7 346.5 567.2C329.8 575.2 310.4 575.2 293.7 567.2C121.3 484.7 80.6 303.2 80.1 204C80 177.8 96.4 156.1 118.4 146.8L306.7 66.9C310.9 65 315.4 64 320 64zM320 130.8L320 508.9C458 442.1 495.1 294.1 496 205.5L320 130.9L320 130.9z"
+              />
+            </svg>
+          </div>
+          <h4>Secure payments</h4>
+          <p>Encrypted & secure checkout</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 14 Delivery  End-->
+    <!-- Footer Start-->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <!-- About -->
+        <div>
+          <h4>About ISAK</h4>
+          <p>
+            We are a fragrance house dedicated to the creation of unrivalled
+            niche Indian artisanal fragrances of rare notes and blends, backed
+            with over a century of experience.
+          </p>
+          <p>Isak Fragrances by M/s Venetta</p>
+        </div>
+
+        <!-- Shop -->
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li>Perfumes</li>
+            <li>Attars</li>
+            <li>Home Fragrances</li>
+            <li>Make Your Own Perfume</li>
+            <li>Kits & Gifts</li>
+            <li>B2B Fragrance Solutions</li>
+          </ul>
+        </div>
+
+        <!-- Information -->
+        <div>
+          <h4>Information</h4>
+          <ul>
+            <li>Shipping Policy</li>
+            <li>Refund Policy</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Service</li>
+            <li>Contact Us</li>
+            <li>Careers</li>
+          </ul>
+        </div>
+
+        <!-- About Us -->
+        <div>
+          <h4>About Us</h4>
+          <ul>
+            <li>Search</li>
+            <li>Our Story</li>
+            <li>Store Locator</li>
+            <li>Isak Rewards</li>
+            <li>FAQ</li>
+            <li>Offers</li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <h4>Contact Us</h4>
+          <p>📞 +91 7571836190</p>
+          <p>✉️ contactus@isakfragrances.com</p>
+          <p>Mon–Fri | 10:00 AM – 06:30 PM (IST)</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 - isak Powered by Shopify</p>
+      </div>
+    </footer>
+
+    <!-- Footer End-->
+
+    <script src="/Isakfragrances/JS/slideshow.js"></script>
+    <script src="/Isakfragrances/JS/script.js"></script>
+  </body>
+</html>

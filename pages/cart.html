@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="/Isakfragrances/css/cart.css" />
+  </head>
+  <body>
+    <!-- Open Cart Button -->
+    <button class="open-cart-btn" type="button" onclick=" openCart()">
+      🛒 Cart (<span id="cartCount">2</span>)
+    </button>
+
+    <!-- Cart Overlay -->
+    <div class="cart-overlay" id="cartOverlay" onclick="closeCart()"></div>
+
+    <!-- Cart Sidebar -->
+    <div class="cart" id="cart">
+      <div class="cart-header">
+        <h3>Your Cart (<span id="totalItems">2</span>)</h3>
+        <button class="close-btn" onclick="closeCart()">✖</button>
+      </div>
+
+      <div class="cart-items" id="cartItems">
+        <!-- Product Item -->
+        <div class="cart-item">
+          <img src="/Isakfragrances/images/1.png" alt="Product" />
+          <div class="item-info">
+            <h4>Product One</h4>
+
+            <!-- Quantity Buttons -->
+            <div class="qty-control">
+              <button type="button"  onclick="decreaseQty(this)">−</button>
+              <span class="qty">1</span>
+              <button type="button" onclick="increaseQty(this)">+</button>
+            </div>
+
+            <button class="delete-btn" type="button" onclick="removeItem(this)">
+              Delete
+            </button>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <img src="/Isakfragrances/images/2.png" alt="Product" />
+          <div class="item-info">
+            <h4>Product Two</h4>
+
+            <div class="qty-control">
+              <button type="button" onclick="decreaseQty(this)">−</button>
+              <span class="qty">1</span>
+              <button type="button" onclick="increaseQty(this)">+</button>
+            </div>
+
+            <button class="delete-btn" type="button" onclick="removeItem(this)">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/Isakfragrances/JS/cart.js"></script>
+  </body>
+</html>
